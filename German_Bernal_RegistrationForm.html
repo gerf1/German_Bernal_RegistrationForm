@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+   <title>Registration Form</title>
+   <h2>My Registration Form</h2>
+   <form>
+      <label for="first_name">First Name:&nbsp;&nbsp;</label>
+      <input width="48" height="48" type="text" id="first_name" name="first_name"></br>
+      <br>
+      <label for="last_name">Last Name:&nbsp;&nbsp;</label>
+      <input   type="text" id="last_name" name="last_name" width="48" height="48" ></br>
+      <br>
+      <label for="email">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input   width="48" height="48" id="email" name="email" align="right">  </br>
+      <br>
+      <label for="password">Password:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input  width="48" height="48" type="password" id="password" name="password">  
+      <br>
+      <br>
+      <label for="pwconfirm">PW confirm:</label>
+      <input align="right" width="48" height="48" type="password" id="pwconfirm" name="pwconfirm">  
+      <br>
+      <label for="birthday">Birthday:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input align="right" type="date" id="birthday" name="birthday" width="48" height="48">
+      <img src="calendar.png"  width="35" height="45"   > 
+      <p>
+         <label for="male">Male</label>
+         <input type="radio" id="male" name="gender" value="male">
+         <label for="female">Female</label>
+         <input type="radio" id="female" name="gender" value="female">
+         <label for="decline">Other</label>
+         <input type="radio" id="other" name="gender" value="decline">
+      </p>
+      <label for="description">A short description about yourself:</label>
+      <p>
+         <textarea rows="4" cols="30" name="description"></textarea   >
+      </p>
+      <label for="password">Favorite Lenguage:</label>
+      <select name="Favorite">
+         <option value="JavaScript">JavaScript</option>
+         <option value="HTML">HTML</option>
+         <option value="Java">Java</option>
+         <option value="Other">Prefer not to say</option>
+      </select>
+      <p>
+         <input type="submit" value="Submit">
+      </p>
+   </form>
+</html>
